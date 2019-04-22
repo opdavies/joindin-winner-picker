@@ -45,6 +45,7 @@
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         },
+        "pick": "bin/console app:pick-winner",
         "post-install-cmd": [
             "@auto-scripts"
         ],
